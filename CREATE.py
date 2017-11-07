@@ -5,9 +5,7 @@ Created by FlyingHippopotamus314159 under a GNU Public Liscence v3.0 (GNU GLPv3)
 
 Commands:
 -init_prog() initalises program
--font_init() initalises a new compressed font. font compression not currently available
 -make_chr()  make a new character
--create_text() creates a text 
 """"
 def make_chr(font_name,chr_name,width):
     try:
