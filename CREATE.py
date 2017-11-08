@@ -46,5 +46,9 @@ def init_prog():
 ##    font_content=[]#creates a list with 200 empty strings
 ##    for i in range(200):
 ##        font_content.append("")
-##        file=open(str("fonts/"+font+str("/"+str(i)+".f0nt")))
+##        file=open(str("fonts/"+font+str("/"+str(i)+".f0nt")),"r")
 ##        font_content[i]=file
+##        file.close()
+##    file=open(str(export_name+".uiff"),"w")
+##    file_content=""
+##    file.write()
