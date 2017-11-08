@@ -41,3 +41,10 @@ def init_prog():
         if procceed=="y":
             shutil.rmtree("fonts", ignore_errors=False, onerror=None)
             os.makedirs("fonts") 
+#compiles fonts into a single file:
+##def compile_font(font,export_name):
+##    font_content=[]#creates a list with 200 empty strings
+##    for i in range(200):
+##        font_content.append("")
+##        file=open(str("fonts/"+font+str("/"+str(i)+".f0nt")))
+##        font_content[i]=file
