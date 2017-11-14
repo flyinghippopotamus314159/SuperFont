@@ -51,4 +51,7 @@ def init_prog():
 ##        file.close()
 ##    file=open(str(export_name+".uiff"),"w")
 ##    file_content=""
-##    file.write()
+##    for i in range(200):
+##        font_content.append(str(str(font_content[i])+";"))
+##    file.write(file_content)
+##    file.close()
